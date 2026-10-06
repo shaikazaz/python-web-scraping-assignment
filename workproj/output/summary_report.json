@@ -1,0 +1,262 @@
+{
+    "start_time": "2026-10-06T13:44:46+00:00",
+    "end_time": "2026-10-06T13:45:29+00:00",
+    "duration_seconds": 43.77,
+    "per_source": {
+        "Books to Scrape": {
+            "collected": 40,
+            "cleaned": 40,
+            "rejected": 0,
+            "rejected_by_reason": {},
+            "duplicates_removed": 0,
+            "final_count": 40
+        },
+        "Quotes to Scrape": {
+            "collected": 20,
+            "cleaned": 20,
+            "rejected": 0,
+            "rejected_by_reason": {},
+            "duplicates_removed": 0,
+            "final_count": 20
+        }
+    },
+    "totals": {
+        "collected": 60,
+        "cleaned": 60,
+        "rejected": 0,
+        "duplicates_detected": 0,
+        "final_record_count": 60,
+        "reconciles": true
+    },
+    "failed_pages": {
+        "Books to Scrape": [],
+        "Quotes to Scrape": []
+    },
+    "data_quality": {
+        "total_records": 60,
+        "null_counts": {
+            "source": {
+                "null": 0,
+                "null_pct": 0.0
+            },
+            "name_or_title": {
+                "null": 0,
+                "null_pct": 0.0
+            },
+            "category": {
+                "null": 20,
+                "null_pct": 33.3
+            },
+            "price": {
+                "null": 20,
+                "null_pct": 33.3
+            },
+            "rating": {
+                "null": 20,
+                "null_pct": 33.3
+            },
+            "author": {
+                "null": 40,
+                "null_pct": 66.7
+            },
+            "tags": {
+                "null": 40,
+                "null_pct": 66.7
+            },
+            "source_url": {
+                "null": 0,
+                "null_pct": 0.0
+            },
+            "scraped_at": {
+                "null": 0,
+                "null_pct": 0.0
+            },
+            "description": {
+                "null": 60,
+                "null_pct": 100.0
+            },
+            "availability": {
+                "null": 20,
+                "null_pct": 33.3
+            },
+            "author_url": {
+                "null": 40,
+                "null_pct": 66.7
+            }
+        },
+        "books": {
+            "count": 40,
+            "price": {
+                "min": 12.84,
+                "max": 57.25,
+                "mean": 34.96,
+                "median": 34.08
+            },
+            "rating_distribution": {
+                "1": 9,
+                "2": 6,
+                "3": 9,
+                "4": 6,
+                "5": 10
+            },
+            "categories_total": 21,
+            "top_categories": [
+                {
+                    "category": "Default",
+                    "count": 7
+                },
+                {
+                    "category": "Poetry",
+                    "count": 5
+                },
+                {
+                    "category": "Music",
+                    "count": 3
+                },
+                {
+                    "category": "Thriller",
+                    "count": 3
+                },
+                {
+                    "category": "Childrens",
+                    "count": 2
+                },
+                {
+                    "category": "Mystery",
+                    "count": 2
+                },
+                {
+                    "category": "Nonfiction",
+                    "count": 2
+                },
+                {
+                    "category": "Romance",
+                    "count": 2
+                },
+                {
+                    "category": "Young Adult",
+                    "count": 2
+                },
+                {
+                    "category": "Art",
+                    "count": 1
+                }
+            ]
+        },
+        "quotes": {
+            "count": 20,
+            "unique_authors": 15,
+            "top_authors": [
+                {
+                    "author": "Albert Einstein",
+                    "count": 4
+                },
+                {
+                    "author": "J.K. Rowling",
+                    "count": 2
+                },
+                {
+                    "author": "Marilyn Monroe",
+                    "count": 2
+                },
+                {
+                    "author": "Allen Saunders",
+                    "count": 1
+                },
+                {
+                    "author": "Andr\u00e9 Gide",
+                    "count": 1
+                },
+                {
+                    "author": "Bob Marley",
+                    "count": 1
+                },
+                {
+                    "author": "Douglas Adams",
+                    "count": 1
+                },
+                {
+                    "author": "Dr. Seuss",
+                    "count": 1
+                },
+                {
+                    "author": "Eleanor Roosevelt",
+                    "count": 1
+                },
+                {
+                    "author": "Elie Wiesel",
+                    "count": 1
+                }
+            ],
+            "unique_tags": 50,
+            "top_tags": [
+                {
+                    "tag": "life",
+                    "count": 6
+                },
+                {
+                    "tag": "inspirational",
+                    "count": 5
+                },
+                {
+                    "tag": "love",
+                    "count": 5
+                },
+                {
+                    "tag": "friends",
+                    "count": 3
+                },
+                {
+                    "tag": "books",
+                    "count": 2
+                },
+                {
+                    "tag": "friendship",
+                    "count": 2
+                },
+                {
+                    "tag": "humor",
+                    "count": 2
+                },
+                {
+                    "tag": "abilities",
+                    "count": 1
+                },
+                {
+                    "tag": "activism",
+                    "count": 1
+                },
+                {
+                    "tag": "adulthood",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    "settings": {
+        "delay": 0.5,
+        "timeout": 10.0,
+        "retries": 3,
+        "max_pages": 2,
+        "sources": "both",
+        "parallel": true
+    },
+    "incremental": {
+        "enabled": true,
+        "previous_run_available": true,
+        "new_records": 0,
+        "unchanged_records": 60,
+        "no_longer_present": 1039
+    },
+    "checkpoint": {
+        "enabled": true,
+        "resumed": {
+            "Books to Scrape": false,
+            "Quotes to Scrape": false
+        }
+    },
+    "database": {
+        "mode": "none",
+        "status": "disabled"
+    }
+}

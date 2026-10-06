@@ -1,0 +1,7 @@
+workproj/venv/
+workproj/__pycache__/
+workproj/**/__pycache__/
+workproj/.pytest_cache/
+*.pyc
+.env
+workproj/.env

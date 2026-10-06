@@ -1,0 +1,14 @@
+2026-10-06 19:14:46,049 | INFO    | scraper_pipeline | Starting web scraping pipeline...
+2026-10-06 19:14:47,133 | INFO    | scrapers.base_scraper | Robots.txt missing or returned HTTP 404 for https://quotes.toscrape.com/robots.txt; no restrictions applied
+2026-10-06 19:14:47,135 | INFO    | scrapers.base_scraper | Page 1: https://quotes.toscrape.com/
+2026-10-06 19:14:47,140 | INFO    | scrapers.base_scraper | Robots.txt missing or returned HTTP 404 for https://books.toscrape.com/robots.txt; no restrictions applied
+2026-10-06 19:14:47,141 | INFO    | scrapers.books_scraper | Extracting category links from home page...
+2026-10-06 19:14:47,422 | INFO    | scrapers.base_scraper | Page 2: https://quotes.toscrape.com/page/2/
+2026-10-06 19:14:47,907 | WARNING | scrapers.base_scraper | Maximum pages limit reached at 2; output is incomplete.
+2026-10-06 19:14:47,907 | INFO    | scrapers.quotes_scraper | Scraped 20 raw quote records from https://quotes.toscrape.com/
+2026-10-06 19:15:28,751 | INFO    | scrapers.books_scraper | Mapped 1000 books to categories across 50 categories
+2026-10-06 19:15:28,752 | INFO    | scrapers.base_scraper | Page 1: https://books.toscrape.com/
+2026-10-06 19:15:29,529 | INFO    | scrapers.base_scraper | Page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-10-06 19:15:29,811 | WARNING | scrapers.base_scraper | Maximum pages limit reached at 2; output is incomplete.
+2026-10-06 19:15:29,811 | INFO    | scrapers.books_scraper | Scraped 40 total book records from https://books.toscrape.com/
+2026-10-06 19:15:29,815 | WARNING | scraper_pipeline | --max-pages=2 may produce incomplete output.
